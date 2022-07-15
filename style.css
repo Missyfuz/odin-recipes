@@ -6,9 +6,25 @@ h1 {
     font-size: 3rem;
     text-align: center;
 }
+
 img {
     height: auto;
-    width: 600px;
+    width: 550px;
     display: block;
     margin: 0 auto;
+}
+
+.menu {
+    width: 15em;
+    height: auto;
+    background-color: #ffffeb;
+    padding: 25px;
+    margin: 20px auto;
+    border: solid;
+    border-width: 3px;
+    border-radius: 1rem;
+}
+
+li {
+    line-height: 1.6;
 }
