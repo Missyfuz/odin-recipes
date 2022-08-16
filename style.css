@@ -9,23 +9,19 @@ body {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     text-align: center;
     display: inline;
     color: #fff;
 }
 
-header {
-    margin: auto;
-}
-
-
-
 .header-container {
     background-color: #364756;
-    height: 150px;
+    height: 170px;
     margin: 0 0 50px 0;
-    display: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .content-container {
@@ -52,6 +48,7 @@ header {
     width: 300px;
     display: block;
     margin: 0 auto 20px;
+    border-radius: 10px;
 }
 
 .yo-img {
@@ -72,4 +69,8 @@ header {
 .first-recipe,
 .second-recipe {
     margin-bottom: 30px;
+}
+
+a:visited {
+    color: #000;
 }
