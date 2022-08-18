@@ -1,30 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #ffe4e1;
+    background-color: rgba(130, 130, 130, 0.4);
     font-family: 'Roboto', sans-serif;
 }
 
-.content {
+header {
+    position: fixed;
+    background-color: #364756;
+    height: 80px;
+    width: 110px;
+    text-align: center;
+    padding-top: 40px;
+    border-radius: 50%;
+    transform: translateY(-2rem);
+    border: 1px solid #fff;
+    box-shadow: 0 0 15px #364756;
+}
+
+a {
+    color: #fff;
+}
+
+.recipe-container {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.recipe {
     width: 51rem;
-    background-color: #ffffec;
-    margin: 0 auto;
-    padding: 10px 25px 15px;
-    top: 0;
+    background-color: rgba(255,228,225,0.5);
+    padding: 30px;
+    border: 2px solid #000;
 }
 
 h1 {
     font-size: 3rem;
     text-align: center;
+    margin-top: 10px;
 }
 
 img {
     height: auto;
-    width: 30rem;
+    width: 28rem;
     display: block;
     margin: 0 auto;
+    border-radius: 10px;
 }
 
 p {
     font-weight: lighter;
+}
+
+li {
+    margin-left: 40px;
 }
