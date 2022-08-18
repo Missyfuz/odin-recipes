@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    line-height: 30px;
 }
 
 body {
@@ -44,6 +45,10 @@ a {
 h1 {
     font-size: 3rem;
     text-align: center;
+    margin: 10px 0 15px;
+}
+
+h2 {
     margin-top: 10px;
 }
 
@@ -51,7 +56,7 @@ img {
     height: auto;
     width: 28rem;
     display: block;
-    margin: 0 auto;
+    margin: 30px auto;
     border-radius: 10px;
 }
 
