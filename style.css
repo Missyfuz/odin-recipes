@@ -26,6 +26,7 @@ h1 {
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid rgba(130, 130, 130, 0.3);
+    box-shadow: 0 0 15px #364756;
 }
 
 .content-container {
@@ -66,6 +67,10 @@ h1 {
 .recipes,
 .yo-img-container {
     width: 350px;
+}
+
+.yo-img-container {
+    text-align: right;
 }
 
 a:visited {
